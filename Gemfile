@@ -8,6 +8,7 @@ gem 'spree_skrill'
 gem 'spree_static_content', :git => 'git://github.com/spree/spree_static_content.git', :branch => '1-0-stable'
 gem 'twitter-bootstrap-rails'
 gem 'high_voltage'
+gem 'thin'
 
 # Gems used only for assets and not required
 # in production environments by default.
