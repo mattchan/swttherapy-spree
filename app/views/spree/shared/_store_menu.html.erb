@@ -1,0 +1,7 @@
+<li id="home-link" data-hook><%= link_to t(:home), root_path %></li>
+
+<% %w{About Menu Cause Contact}.each do |navlink| %>
+  <%= content_tag :li, link_to(navlink, "/#{navlink.downcase}") %>
+<% end %>
+	
+<li id="link-to-cart" data-hook><%= link_to_cart %></li>
