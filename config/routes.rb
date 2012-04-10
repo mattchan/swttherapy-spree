@@ -3,8 +3,9 @@ SwtTherapy::Application.routes.draw do
   # Mount Spree's routes
   mount Spree::Core::Engine, :at => '/'
 
-  # Remap Sptree's "products" route as "cupcakes"
+  # Route the "menu" to  Spree's internal controller
   match "menu" => "spree/products#index"
+  match "menu/:id" => "spree/products#show"
 
 
   # The priority is based upon order of creation:
