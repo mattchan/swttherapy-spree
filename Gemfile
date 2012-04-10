@@ -2,8 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.4'
 
-gem 'sqlite3'
-gem 'spree'
+gem 'pg'
 gem 'spree_usa_epay'
 gem 'spree_skrill'
 gem 'spree_static_content', :git => 'git://github.com/spree/spree_static_content.git', :branch => '1-0-stable'
