@@ -244,7 +244,6 @@ DEPENDENCIES
   spree_static_content!
   spree_usa_epay
   sqlite3
-  therubyracer
   thin
   turn (~> 0.8.3)
   twitter-bootstrap-rails
