@@ -16,3 +16,6 @@
 
 # Ignore all redcar stuff
 /.redcar
+
+# Ignore windows
+Thumbs.db
